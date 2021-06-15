@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 20px;
+  background: #96b6e0;
+  text-align: justify;
+}
+
+.header {
+  padding: 15px;
+  font-size: 0px;
+  text-align: center;
+  background: rgba(57, 159, 190, 0);
+}
+.headerimage {
+  width: 600px;
+  height: 400px;
+}
+h2 {
+  color: rgb(51, 124, 146);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.img_content {
+  text-align: center;
+}
+
+.recipe_info {
+  text-align: center;
+}
+
+.author {
+  color: #aaa;
+  font-size: 12px;
+  text-align: right;
+}
+
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  border-radius: 15px;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(51, 124, 146);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.member {
+  padding-top: 10px 10px 10px 10px;
+  border-color: red;
+}
+
+.member {
+  padding-top: 10px 10px 10px 10px;
+  border-color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: auto;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+.image1 {
+  height: 350px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+td {
+  text-align: center;
+}
